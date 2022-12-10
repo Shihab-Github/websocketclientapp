@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   useEffect(() => {
-    const socket = io("wss://ws.binaryws.com/websockets/v3?app_id=1089");
+    const socket = io("wss://javascript.info");
 
     socket.on("connect", () => {
       console.log("connection happened");
